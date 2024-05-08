@@ -1,7 +1,7 @@
 import 'package:animate_do/animate_do.dart';
 import 'package:flutter/material.dart';
-import 'package:vertical_videos_avm/entities/video_post.dart';
-import 'package:vertical_videos_avm/helpers/intelligibilis_forma.dart';
+import 'package:vertical_videos_avm/domain/entities/video_post.dart';
+import 'package:vertical_videos_avm/config/helpers/intelligibilis_forma.dart';
 
 class VideoButtons extends StatelessWidget {
   final VideoPost video;

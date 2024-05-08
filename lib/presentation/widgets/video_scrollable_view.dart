@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:vertical_videos_avm/entities/video_post.dart';
-import 'package:vertical_videos_avm/widgets/full_screen_player.dart';
-import 'package:vertical_videos_avm/widgets/video_buttons.dart';
+import 'package:vertical_videos_avm/domain/entities/video_post.dart';
+import 'package:vertical_videos_avm/presentation/widgets/full_screen_player.dart';
+import 'package:vertical_videos_avm/presentation/widgets/video_buttons.dart';
 
 class VideoScrollableView extends StatelessWidget {
   final List<VideoPost> videos;
